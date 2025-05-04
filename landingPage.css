@@ -10,6 +10,23 @@
     justify-content:center;  
     align-items: center;  
 }
+.about-section {
+  padding: 60px 178px;
+  margin-bottom: 1px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  margin-top: 5em;
+}
+
+.about-section h2 {
+  font-size: 2em;
+  color: red;
+  margin-bottom: 20px;
+}
+
 
 .heading{
   color:white;
