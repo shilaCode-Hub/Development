@@ -8,6 +8,7 @@ This is a responsive Ferrari Car Landing Page built using HTML5 and CSS3. The de
 This project was created for learning and practicing front-end development skills, especially in building responsive layouts, working with Flexbox, styling interactive elements, and designing an attractive landing page from scratch.
 
 **🧩 Key Features**
+
 Responsive header with logo and navigation links
 
 Hover effects for interactive elements
@@ -21,13 +22,16 @@ Prominent call-to-action button with animations
 Feature section and styled footer
 
 **🛠 Technologies Used**
+
 HTML5
 CSS3 (hover effects, transitions, Flexbox, box shadows)
 
 **🧑‍💻 Author**
+
 Shila Rana
 BCA 2nd Year Student at Panskura Banamali College(Autonomous)
 
 **⚠️ Disclaimer**
+
 This project is for educational purposes only. It is not affiliated with or endorsed by Ferrari. All logos, names, and images used are for learning and demonstration purposes.
 
