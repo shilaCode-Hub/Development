@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header{
+    height:4em;
+    background-color: black;
+    display: flex;
+    justify-content:center;  
+    align-items: center;  
+}
+.heading{
+  color:white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 25px ;
+  
+}
+.heading:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgb(206, 20, 20);
+  text-decoration-thickness: 2px;
+}
+.logo{
+  width: 90px;
+  height: 50px;
+  object-fit: contain;
+  padding-top:none;
+  margin-right: 800px;
+
+
+}
+
+#search-bar{
+  text-align: center;
+  font-size: 1em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  border-radius: 2em;
+  padding:5px 5px;
+  background-color: rgb(48, 38, 38);
+  color:white;
+  
+
+}
+#search-bar:hover{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(48, 38, 38);;
+  transition: 0.3s;
+  border:solid 4px rgb(175, 15, 15);
+}
+
+body{
+background-image:url(43XwicbDSdmkwB4Yi5pfXQ.webp);
+background-size: cover;
+background-position: center;
+background-repeat:no-repeat;
+height:100vh;
+font-family: Arial, Helvetica, sans-serif;
+display:flex;
+flex-direction: column;
+
+}
+
+.top-heading{
+  text-align: center;
+  color: rgb(243, 236, 227);
+  font-size:75px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cta-button{
+  
+  display: inline-block;
+  padding-top:13px;
+  height: 3em;
+  width:14em;
+  justify-content: center;
+  text-align: center;
+  background-color:red;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition:backgroun-color 0.3s ease;
+  box-shadow: 0 3px 6px rgb(186, 10, 10);
+
+}
+.cta-button:hover{
+  background-color:rgb(230, 6, 6);
+  transform: scale(1.05); 
+  width:14.1em;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  transition-duration: 0.3s;
+  
+
+}
+
+.Features{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30em;
+  margin-bottom: 3em;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+.speed{
+  padding-left: 15em;
+  font-size: 1em;
+  color: aliceblue;
+}
+.footer{
+  background-color:#ea7c7c;
+  color:#1c0c0c;
+  font-size:2em ;
+  text-align: center; 
+  padding:20px; 
+  font-size: 14px;
+} 
