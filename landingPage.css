@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,27 +10,27 @@
     justify-content:center;  
     align-items: center;  
 }
+
 .heading{
   color:white;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0 25px ;
-  
+  padding: 0 25px;  
 }
+
 .heading:hover{
   cursor: pointer;
   text-decoration: underline;
   text-decoration-color: rgb(206, 20, 20);
   text-decoration-thickness: 2px;
 }
+
 .logo{
   width: 90px;
   height: 50px;
   object-fit: contain;
   padding-top:none;
   margin-right: 800px;
-
-
 }
 
 #search-bar{
@@ -41,9 +41,8 @@
   padding:5px 5px;
   background-color: rgb(48, 38, 38);
   color:white;
-  
-
 }
+
 #search-bar:hover{
   cursor: pointer;
   background-color: white;
@@ -61,7 +60,6 @@ height:100vh;
 font-family: Arial, Helvetica, sans-serif;
 display:flex;
 flex-direction: column;
-
 }
 
 .top-heading{
@@ -72,7 +70,6 @@ flex-direction: column;
 }
 
 .cta-button{
-  
   display: inline-block;
   padding-top:13px;
   height: 3em;
@@ -95,8 +92,6 @@ flex-direction: column;
   width:14.1em;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   transition-duration: 0.3s;
-  
-
 }
 
 .Features{
@@ -111,6 +106,7 @@ flex-direction: column;
   font-size: 1em;
   color: aliceblue;
 }
+
 .footer{
   background-color:#ea7c7c;
   color:#1c0c0c;
